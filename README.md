@@ -20,12 +20,12 @@
 
 # Steps to follow
 
-	## Step1: Prepare the databases
+	Step1: Prepare the databases
 	1. Run "python tweets_Fake.py" to collect the already verified fake news
 	2. Run "python tweets_True.py" to collect the genuine true news
 	3. Run "python tweets_collect.py" to collect the news to be checked
 
-	## Step2: Comparison
+	Step2: Comparison
 	1. Run "python comparison.py" to compare the collected news to existing genuine news. Here we are using Google's Universal Sentence Encoder's TF Hub module to perform the lexical as well as semantic similarity.
 
 # Three Level of Comparison
@@ -37,7 +37,7 @@
 	Those which does not have any match in level 1, compare them with genuine true news
 
 	Level 3:
-	Those which pass level 2 and no match found, they are further checked manually or using a pre-trained Machine Learning model. The development codes for the model are given in the notebook "trueOrFake.ipynb". The datasets used are given in "datasets" folder.
+	Those which pass level 2 and no match found, they are further checked manually or using a pre-trained Machine Learning model. The development codes for the model are given in the notebook "trueOrFake.ipynb". The datasets used are from "https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset"
 
 # Additional Notes.
 	* The '.csv' file generated will be stored in the same directory

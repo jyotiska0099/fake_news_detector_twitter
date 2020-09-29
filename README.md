@@ -5,7 +5,7 @@
 
 # Requirements
 
-	Install the following python libraries
+	Install the following python libraries using pip or conda
 		1. tensorflow
 		2. tensorflow_hub
 		3. pandas
@@ -14,6 +14,9 @@
 		6. os
 		7. re
 		8. twint (Install only from "git clone --branch=twitter_legacy2 https://github.com/yunusemrecatalcam/twint.git" )
+			To install after clonning from git
+				a. Go to twint folder
+				b. type "python setup.py"
 		9. nest_asyncio
 		10. csv
 

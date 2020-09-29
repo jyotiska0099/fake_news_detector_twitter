@@ -20,12 +20,12 @@
 
 # Steps to follow
 
-	## Step1: Prepare the databases
+	Step1: Prepare the databases
 	1. Run "python tweets_Fake.py" to collect the already verified fake news
 	2. Run "python tweets_True.py" to collect the genuine true news
 	3. Run "python tweets_collect.py" to collect the news to be checked
 
-	## Step2: Comparison
+	Step2: Comparison
 	1. Run "python comparison.py" to compare the collected news to existing genuine news. Here we are using Google's Universal Sentence Encoder's TF Hub module to perform the lexical as well as semantic similarity.
 
 # Three Level of Comparison

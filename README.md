@@ -44,4 +44,4 @@
 
 # Additional Notes.
 	* The '.csv' file generated will be stored in the same directory
-	* The "Sentence_similarity_hackathon_AP.ipynb" notebook is given here to show the efficiency of the comparison algorithm.
+	* The "Sentence_similarity_hackathon_AP.ipynb" notebook is included here to show the efficiency of the comparison algorithm.

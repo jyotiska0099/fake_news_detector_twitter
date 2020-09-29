@@ -29,7 +29,7 @@
 	3. Run "python tweets_collect.py" to collect the news to be checked
 
 	Step2: Comparison
-	1. Run "python comparison.py" to compare the collected news to existing genuine news. Here we are using Google's Universal Sentence Encoder's TF Hub module to perform the lexical as well as semantic similarity.
+	1. Run "python comparison.py" to compare the collected news to the existing genuine news. Here we are using Google's Universal Sentence Encoder's TF Hub module to perform the lexical as well as semantic similarity.
 
 # Three Level of Comparison
 	
@@ -37,10 +37,10 @@
 	Compare the collected news with already verified fake news
 
 	Level 2: 
-	Those which does not have any match in level 1, compare them with genuine true news
+	Those which do not have any match in level 1, compare them with genuine true news
 
 	Level 3:
-	Those which pass level 2 and no match found, they are further checked manually or using a pre-trained Machine Learning model. The development codes for the model are given in the notebook "trueOrFake.ipynb". The datasets used are from "https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset"
+	Those which pass level 2 with no match found, they are further checked manually or using a pre-trained Machine Learning model. The development codes for the model are given in the notebook "trueOrFake.ipynb". The datasets used are from "https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset"
 
 # Additional Notes.
 	* The '.csv' file generated will be stored in the same directory

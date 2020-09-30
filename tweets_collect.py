@@ -16,7 +16,7 @@ t.Store_object = True
 t.Limit = 100
 
 ## Collecting tweets based on a #tag
-# Create Search String; In our case, chage the string to "fakeOrNot" from "monke"y
+# Create Search String; In our case, chage the string to "from:@trueOrFake4" from "monkey"
 t.Search = 'monkey'
 print("from:#"+t.Search)
 

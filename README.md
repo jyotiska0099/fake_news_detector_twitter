@@ -34,11 +34,11 @@
 # Three Level of Comparison
 	
 	Level 1: 
-	Compare the collected news with already verified fake news
+	Compare the collected news with genuine true news
 
 	Level 2: 
-	Those which do not have any match in level 1, compare them with genuine true news
-
+	Those which do not have any match in level 1, compare them with already verified fake news
+	
 	Level 3:
 	Those which pass level 2 with no match found, they are further checked manually or using a pre-trained Machine Learning model. The development codes for the model are given in the notebook "trueOrFake.ipynb". The datasets used are from "https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset"
 

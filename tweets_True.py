@@ -34,4 +34,5 @@ tweets_2 = pd.DataFrame(tweets)
 tweets_2 = tweets_2['tweet']
 
 # Converting dataframe to CSV
+print("[INFO]Saving to file...")
 tweets_2.to_csv('database_true.csv', sep=',')

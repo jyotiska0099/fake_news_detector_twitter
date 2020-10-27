@@ -29,4 +29,5 @@ tweets_3 = pd.DataFrame(tweets)
 tweets_3 = tweets_3['tweet']
 
 # Converting dataframe to CSV
+print("[INFO]Saving to file...")
 tweets_3.to_csv('database_collected.csv', sep=',')
